@@ -1,0 +1,60 @@
+.cabecalho__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.125em 0;
+}
+    .cabecalho__container__logo-menu{
+        display: flex;
+        gap: 4em;
+    }
+
+    .cabecalho__container__nav, .cabecalho__container__login{
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .nav__link, .login__link{
+        font-size: 1.125em;
+        text-decoration: none;
+        font-weight: 500;
+        color: var(--sub-texto-cinza);
+    }
+
+    .login__link{
+        color: var(--branco);
+        font-weight: 400;
+        background-color: var(--vermelho);
+        border-radius: 8px;
+        padding: 16px 18px;
+    }
+
+.banner__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    margin: 6em 0;
+}
+
+    .mini-titulo__banner{
+        color: var(--vermelho);
+        font-weight: 700;
+        font-size: 1em;
+    }
+
+    .titulo__banner{
+        color: var(--preto);
+        font-size: 4em;
+        font-weight: 500;
+    }
+
+    .texto__banner{
+        color: var(--sub-texto-cinza);
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 400;
+        padding: 0 10em;
+        line-height: 1.5em;
+    }
