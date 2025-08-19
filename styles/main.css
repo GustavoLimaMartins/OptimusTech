@@ -1,0 +1,83 @@
+.anuncio__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+    margin-bottom: 2em;
+}
+
+    .sub-titulo__anuncio, .titulo__anuncio, .texto__anuncio{
+        margin: 0.5em 0;
+    }
+
+    .sub-titulo__anuncio{
+        color: var(--vermelho);
+        font-size: 0.8em;
+        font-weight: 500;
+        background-color: var(--vermelho-claro);
+        border-radius: 8px;
+        padding: 0.35em 0.35em;
+    }
+
+    .titulo__anuncio{
+        font-size: 2.5em;
+        color: var(--preto);
+        font-weight: 600;
+    }
+
+    .texto__anuncio{
+        font-size: 1.5em;
+        margin-bottom: 2.5em;
+    }
+
+    .img__anuncio{
+        width: 80vw;
+    }
+
+.vagas__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+    .vagas__titulo{
+        color: var(--titulo-cinza);
+        font-weight: 500;
+    }
+
+    .vagas__descricao{
+        margin: 2em 29.25em;
+    }
+
+    .vagas__container h3{
+        margin: 0.5em 28em;
+    }
+
+    .vagas__container h4{
+        font-size: 0.8em;
+    }
+
+    .vagas__texto{
+        font-size: 0.8em;
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+.depoimento__container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+    text-align: center;
+    margin: 6em 8em;
+}
+
+    .depoimento__cargo{
+        color: var(--sub-texto-cinza);
+        font-weight: 400;
+        font-size: 0.8em;
+    }
+
+    .img__depoimento{
+        margin-bottom: 1em;
+    }

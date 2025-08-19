@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <header>
@@ -31,7 +32,9 @@
                 <a href="#" class="login__link">Cadastrar</a>
             </div>
         </section>
+        <!--2º bloco container do header-->
         <section class="banner__container">
+            <!--1º sub-bloco da banner-->
             <h4 class="mini-titulo__banner">Sobre nós</h4>
             <h1 class="titulo__banner">Por que somos diferentes?</h1>
             <p class="texto__banner">
@@ -39,12 +42,73 @@
                 Tudo para ajudar as empresas de<br>todo o mundo a se concentrarem naquilo que é realmente importante para elas.
             </p>
         </section>
+        <!--3º bloco container do header-->
+        <section class="resultados__container">
+            <div class="resultados__container__item">
+                <h2 class="titulo__resultados">400+</h2>
+                <h4 class="sub-titulo__resultados">Projetos concluídos</h4>
+                <p class="texto__resultados">Nós ajudamos a construir mais de<br>400 projetos incríveis.</p>
+            </div>
+            <div class="resultados__container__item">
+                <h2 class="titulo__resultados">100+</h2>
+                <h4 class="sub-titulo__resultados">Colaboradores</h4>
+                <p class="texto__resultados">Temos mais de 100 colaboradores<br>no nosso time que se preocupam<br>com nossos clientes.</p>
+            </div>
+            <div class="resultados__container__item">
+                <h2 class="titulo__resultados">20k</h2>
+                <h4 class="sub-titulo__resultados">Downloads</h4>
+                <p class="texto__resultados">Nossos projetos que estão<br>disponíveis em lojas já foram<br>baixados mais de 20.000 vezes.</p>
+            </div>
+            <div class="resultados__container__item">
+                <h2 class="titulo__resultados">500+</h2>
+                <h4 class="sub-titulo__resultados">Reviews 5 estrelas</h4>
+                <p class="texto__resultados">Estamos orgulhosos de contar com<br>mais de 500 reviews 5 estrelas em<br>nossos produtos.</p>
+            </div>
+        </section>
     </header>
     <main>
-
+        <!--1º bloco container do main (até imagem da equipe)-->
+        <section class="anuncio__container">
+            <h4 class="sub-titulo__anuncio">Vagas abertas!</h4>
+            <h2 class="titulo__anuncio">Estamos procurando por talentos</h2>
+            <p class="texto__anuncio">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+            <img src="img/Image.png" alt="Equipe de recrutamento do RH" class="img__anuncio">
+        </section>
+        <!--2º bloco container do main (vagas)-->
+        <section class="vagas__container">
+            <h3 class="vagas__titulo">Design</h3>
+            <div class="vagas__container vagas__descricao">
+                <h4 class="vagas__titulo">Product Designer</h4>
+                <p class="vagas__texto">Full-time   Faixa salarial: R$7.000</p>
+                <h4 class="vagas__titulo">UX Designer</h4>
+                <p class="vagas__texto">Full-time   Faixa salarial: R$6.000</p>
+            </div>
+            <h3 class="vagas__titulo">Desenvolvimento de Software</h3>
+            <div class="vagas__container vagas__descricao">
+                <h4 class="vagas__titulo">Desenvolvedor(a) iOS</h4>
+                <p class="vagas__texto">Full-time   Faixa salarial: R$8.000</p>
+                <h4 class="vagas__titulo">Desenvolvedor(a) Front-end</h4>
+                <p class="vagas__texto">Full-time   Faixa salarial: R$7.000</p>
+                <h4 class="vagas__titulo">Desenvolvedor(a) Back-end</h4>
+                <p class="vagas__texto">Full-time   Faixa salarial: R$8.000</p>
+            </div>
+        </section>
+        <section class="depoimento__container">
+            <h3 class="mini-titulo__banner">Veja o que nossos colaboradores falam sobre nós</h3>
+            <h2 class="titulo__anuncio">OptimusTech se importa com a saúde dos seus colaboradores e<br>sempre procura nos dar todo tipo de auxílio possível.</h2>
+            <img src="img/Avatar.png" alt="Foto da Júlia Castro" width="56" height="56" class="img__depoimento">
+            <h4 class="vagas__titulo">Júlia Castro</h4>
+            <h5 class="depoimento__cargo">Desenvolvedora Web</h5>
+        </section>
     </main>
-    <footer>
-
+    <footer class="rodape__container">
+        <h2 class="titulo__banner">Acompanhe as nossas oportunidades</h2>
+        <p class="texto__banner">Seja o primeiro a saber quando novas vagas serão abertas!</p>
+        <div class="newsletter__rodape">
+            <input type="email" id="email__rodape" placeholder="Seu e-mail" class="rodape__input">
+            <a href="#" class="login__link">Cadastrar</a>
+        </div>
+        <p class="rodape__texto-final">© 2022 OptimusTech. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>

@@ -58,3 +58,29 @@
         padding: 0 10em;
         line-height: 1.5em;
     }
+
+.resultados__container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 6em;
+}
+
+    .titulo__resultados, .sub-titulo__resultados, .texto__resultados{
+        margin: 0.8em 0;
+    }
+
+    .titulo__resultados{
+        color: var(--vermelho);
+        font-weight: 500;
+        font-size: 3em;
+    }
+
+    .sub-titulo__resultados{
+        color: var(--preto);
+        font-weight: 500;
+        font-size: 0.85em;
+    }
+
+    .texto__resultados{
+        line-height: 1.5em;
+    }

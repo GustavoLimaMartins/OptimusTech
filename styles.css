@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('styles/header.css');
+@import url('styles/main.css');
+@import url('styles/footer.css');
 
 :root{
     --branco: white;
     --vermelho: #8E2424;
     --sub-texto-cinza: #9E9E9E;
+    --borda-input: #D0D5DD;
+    --titulo-cinza: #212121;
+    --vermelho-claro: #fae2e2;
     --preto: black;
 }
 

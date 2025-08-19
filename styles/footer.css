@@ -1,0 +1,27 @@
+.rodape__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2em
+}
+
+    .rodape__container > h2{
+        font-size: 3em;
+    }
+
+    .rodape__input{
+        width: 360px;
+        height: 48px;
+        border-radius: 8px;
+        border-color: var(--borda-input);
+        border-style: solid;
+    }
+
+    .rodape__input::placeholder{
+        padding: 0 1em;
+    }
+
+    .rodape__texto-final{
+        margin-bottom: 1em;
+    }
